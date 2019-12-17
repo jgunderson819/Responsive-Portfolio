@@ -1,0 +1,176 @@
+body {
+
+    background-color: #4aaaa5;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width:1200px;
+    border: #777777;
+    margin-left: 20px;
+    
+    }
+    
+    .logo {
+    
+    float: right;
+    font-size: small;
+    display: inline-block;
+    margin: 0 1.5%;
+    width: 30%;
+    vertical-align: top;
+    padding:3px;
+    }
+    
+    .container {
+    
+    clear: both;
+    overflow: auto;
+    
+    
+    }
+    
+    #main-bio {
+    
+      float: left;  
+    
+    
+    
+    
+    
+    }
+    
+    #bio-image {
+    
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    
+    }
+    #description{
+    
+    float:left;
+    color:#777777
+    width: 500px;
+    margin-left: 40px;
+    padding-left: 40px;
+    
+    }
+    
+    
+    #message {
+    
+    clear: both;
+    overflow: auto;
+    width: 500px;
+    margin-left: 40px;
+    padding-left: 40px;
+    
+    
+    }
+    
+    #hangman {
+    
+      height: 200px;
+      width: 30%;
+      float: left;
+      margin: 0 1.5%;
+      padding: 2px;
+    
+    
+    }
+    
+    aside {
+    
+     clear: both;
+     overflow: auto;
+      float: right;
+      margin: 0 1.5%;
+      padding: 2px;
+      display: inline;
+    width: 35%;
+    
+    
+    
+    }
+    
+    #trivia-game {
+    
+     
+      float: left;
+      margin: 0 1.5%;
+      padding: 20px;
+      display: inline;
+    
+    
+    }
+      #rutgers {
+    
+        
+        float: right;
+        margin: 0 1.5%;
+        padding: 20px;
+        display: inline;
+    
+    
+      }
+    
+    #rock {
+    
+      clear: both;
+      overflow: auto;
+      
+      float: left;
+      margin: 0 1.5%;
+      padding: 20px;
+    
+    
+    }
+
+    @media screen and (max-width: 980px;) and (min-width: 768px)
+
+    {
+        .body
+        {
+            font-size: large;
+            background-color: azure;
+
+
+
+
+
+        }
+
+    }
+
+    @media screen and (max-width:768px;) and (min-width: 640px)  {
+
+
+.body{
+
+font-size: medium;
+background-color: beige;
+
+
+
+}
+
+
+    @media screen and (max-width: 640px;  {
+
+        .body {
+
+            font-size: x-small;
+            background-color: bisque;
+
+
+        }
+        
+    }
+
+
+
+
+
+    }
+    
